@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: whitesmoke;
+  padding:  0 40px;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.193);
+}
+.navbar-container div{
+  display: flex;
+  gap: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.products-list{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card{
+  width: 250px ;
+  height: 280px;
+  border: 2px solid rgba(0, 0, 0, 0.419);
+  background-color: aliceblue;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.115);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
